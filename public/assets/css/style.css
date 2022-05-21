@@ -454,14 +454,19 @@ header .top-social-links li a:hover i{
 }
 
 /*main navigation*/
-header .simple-nav-logo{
-    background-color: #000000;
-    padding: 35px 10px 40px 10px;
-    margin-right: 0;
+
+.simple-nav-logo img{
+    background-color: #8eaada;
     text-align: center;
     position: relative;
+    top: 40px;
+    border-radius: 50%;
+    padding: 20px;
+    height: 170px;
+    width: 200px;
     z-index: 111;
 }
+
 header .fixed-nav-logo{
     display: none;
 }
@@ -1073,7 +1078,6 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
     font-weight: 300;
     transition: .5s ease;
 }
-
 
 /*about detail*/
 
