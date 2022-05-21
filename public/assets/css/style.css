@@ -132,15 +132,15 @@ ul{margin-bottom: 0;}
 .left-overlay{
     position: absolute;
     left: 0;
-    right: 60%;
+    right: 34%;
     top: 0;
     bottom: 0;
 }
 .right-overlay{
-    position: absolute;
-    left: 50%;
+    position: absolute !important;
+    left: 40% !important;
     right: 0;
-    top: 0;
+    top: 50px;
     bottom: 0;
 }
 /*icon text bover */
@@ -915,6 +915,8 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
         Slider area
 ====================================== */
 
+
+
 .slider-area{
     position: relative;
     margin-top: -40px;
@@ -1001,26 +1003,30 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
     color: #FFFFFF;
     font-size: 16px;
 }
-.slider-area img{
+.img-slide{
     width: 100%;
+    height: auto !important;
 }
 /* ===================================
       About Us
   ==================================== */
 .about-sec{
-    padding-top: 10px;
+    padding-top: 50px;
+}
+.about-sec .container {
+    max-width: 1400px;
 }
 .about-sec .about-overlay{
     position: absolute;
     display: block;
-    top: 10px;
+    top: 50px;
     right: 0;
     bottom: 0;
     left: 60%;
-    background-color:#334c73;
+    background-color:#334c73 !important;
 }
 .about-sec .services-area{
-    /*background-color:#554c86;*/
+    background-color:#334c73 !important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1145,12 +1151,18 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
 /* ===================================
            team sec css
 ====================================== */
-.team-sec{}
+.team-sec{
+    margin-top: 80px;
+    margin-right: 0px;
+    position: relative;
+    right: 0px !important;
+}
+
 .team-sec .left-overlay{
-    background-color: #f71c52;
+    background-color: #bfd7f9;
 }
 .team-sec .inner-team-sec{
-    background-color: #f71c52;
+    background-color: #bfd7f9;
 }
 .team-sec .heading{
     margin-bottom: 30px;
@@ -1319,7 +1331,7 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
     /*transition: .8s ease;*/
 }
 .portfolio-sec .container {
-    max-width: 1140px;
+    max-width: 1400px;
 }
 .portfolio-sec .heading{
     color: #000000;
@@ -1479,7 +1491,7 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
     background-color: #554c86;
 }
 .testimonial-sec .testimonial-area .container{
-    max-width: 1140px;
+    max-width: 1400px;
 }
 .testimonial-sec .testimonial-area .testimonial-details{
     padding-right: 10px;
@@ -1534,31 +1546,64 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
         Blog sec css
 ====================================== */
 .blog-sec{
-    padding-top: 120px;
-}
-.blog-sec .left-overlay{
-    background-color: #f61c52;
-    top:120px;
+    margin-top: 50px;
 }
 
-.blog-sec .blog-area{
-    padding-top: 50px;
-    padding-bottom: 50px;
+.blog-sec .container-built {
+    max-width: 90px !important;
 }
-.blog-sec .blog-inner-overlay{
+.blog-sec .left-overlay {
+    background-color: green;
+    top: 0px;
+}
+.blog-sec2 .left-overlay {
+    background-color: #f61c52;
+    top: 50px;
+}
+.blog-sec2 .right-overlay {
+    background-color: purple;
+    top: 50px;
+}
+
+.blog-sec .container-built {
+    max-width: 90px !important;
+}
+.blog-image {
+    margin-top: 50px;
+    width: 900px !important;
+    height: 450px;
+}
+.blog-image2 {
+    width: 900px !important;
+    height: 450px;
+    margin-top: 100px !important;
+}
+
+.blog-sec .blog-inner-overlay {
     position: absolute;
-    left: 0;
+    left: 0%;
     bottom: 0;
     top: 0;
-    right: 34%;
-    background-color: #f61c52;
+    right: 36% !important;
 }
-.blog-sec .blog-area .blog-detail .heading{
+.blog-sec2 .blog-inner-overlay2 {
+    position: absolute;
+    left: 36% !important;
+    bottom: 0;
+    top: 0;
+    right: 0%;
+}
+.blog-sec .blog-area .blog-detail .heading {
     margin-bottom: 40px;
 }
 .blog-sec .blog-area .blog-detail .white-trans-btn{
     margin-top: 10px;
 }
+
+.blog-sec2 .blog-area p.text:last-child{
+    padding-bottom: 40px;
+}
+
 
 /* ===================================
       Contact sec css
@@ -1873,6 +1918,9 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
     position: relative;
     margin-top: -40px;
 }
+.slider-sec .container {
+    max-width: 1400px;
+}
 .slider-sec .slider-row{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -1893,6 +1941,9 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
     right: 20%;
     background-color:#f71c52;
 }
+.single-img-slide{
+    width: 900px;
+    height: 500px;}
 .slider-sec .inner-slider-content h4{
     font-family:Oswald, sans-serif;
     font-weight: bold;
@@ -2154,19 +2205,22 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
         padding-right: 0;
         margin-bottom: 80px;
     }
-    .right-overlay{
+    /* .right-overlay{
         left: 0;
     }
     .left-overlay{
         right: 0;
-    }
+    } */
     /*blog*/
     .blog-sec .blog-area .blog-detail{
-        margin-bottom: 80px;
+        /* margin-bottom: 180px; */
     }
     /*contact*/
     .contact-sec .contact-form {
         width: 100%;
+    }
+    .contact-sec .container {
+        max-width: 1400px;
     }
     .contact-sec .contact-details {
         width: 100%;
@@ -2239,6 +2293,46 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
 
 
 @media screen and (max-width:767px){
+    .col-12.col-lg-5.d-flex.align-items-center.text-center.text-lg-left {
+        padding-top: 120px;
+    }
+    .col-12.col-lg-5.d-flex.align-items-center.text-center.text-lg-left.last {
+        padding-top: 0px;
+    }
+    .single-img-slide{
+        margin-top: 60px !important;
+        height: 320px !important;
+        min-width: 100% !important;
+    }
+    .slider-area .slider-detail {
+        margin-bottom: 0px !important;
+    }
+
+.slider-area .bg-overlay {
+    width: auto;
+}
+.about-sec .services-area .purple-overlay {
+    position: absolute;
+    right: 16px;
+    left: 16px;
+    top: 120px;
+    height: 320px;
+}
+.about-sec .about-area {
+    margin-top: 210px;
+    background-color: #334c73 !important;
+}
+.blog-sec2 .right-overlay {
+    top: 0px;
+}
+
+.right-overlay {
+    left: 0% !important;
+}
+.blog-image2 {
+    width: 100% !important;
+    height: auto;
+}
     header .upper-nav{
         display: none;
     }
