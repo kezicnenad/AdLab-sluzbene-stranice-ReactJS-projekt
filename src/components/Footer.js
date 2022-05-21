@@ -7,7 +7,7 @@ function Footer() {
         <div className="row align-items-center">
           {/* <!--Social--> */}
           <div className="col-lg-6">
-            <div className="footer-social text-center text-lg-left ">
+            {/* <div className="footer-social text-center text-lg-left ">
               <ul className="list-unstyled">
                 <li>
                   <a className="wow fadeInUp" href="javascript:void(0);">
@@ -40,13 +40,13 @@ function Footer() {
                   </a>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
           {/* <!--Text--> */}
           <div className="col-lg-6 text-center text-lg-right">
             <p className="company-about fadeIn">
               © 2020 AdLab. Made With Love By{" "}
-              <a href="https://reset.hr">Reset.hr</a>
+              <a href="https://reset.hr">reset.hr</a>
             </p>
           </div>
         </div>

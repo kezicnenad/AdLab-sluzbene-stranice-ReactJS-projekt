@@ -31,7 +31,7 @@ function Header() {
                 </ul>
               </div>
               <div className="col-6 text-right">
-                <ul className="top-social-links">
+                {/* <ul className="top-social-links">
                   <li>
                     <a href="#" className="link-holder fb">
                       <i className="lab la-facebook-f"></i>
@@ -52,7 +52,7 @@ function Header() {
                       <i className="lab la-instagram"></i>
                     </a>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
           </div>
@@ -63,7 +63,7 @@ function Header() {
             <div className="row">
               <div className="col-4 col-lg-3">
                 <a className="navbar-brand simple-nav-logo" href="/">
-                  <img src={imgLogo} alt="logo" />
+                  <img src={imgLogo} alt="logo" className='logo' />
                 </a>
                 <a className="navbar-brand fixed-nav-logo" href="/">
                   <img src={imgLogoBlack} alt="logo" />
@@ -102,7 +102,7 @@ function Header() {
                     </ul>
                   </div>
                 </nav>
-                <ul className="top-social-links fixed-nav-links">
+                {/* <ul className="top-social-links fixed-nav-links">
                   <li>
                     <a href="#" className="link-holder fb">
                       <i className="lab la-facebook-f"></i>
@@ -123,7 +123,7 @@ function Header() {
                       <i className="lab la-instagram"></i>
                     </a>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
           </div>
@@ -140,7 +140,7 @@ function Header() {
         </a>
       </div>
       {/* <!--Side Nav--> */}
-      <div className="side-menu hidden side-menu-opacity">
+      <div className="side-menu side-menu-opacity">
         <div className="bg-overlay"></div>
         <div className="inner-wrapper">
           <span className="btn-close" id="btn_sideNavClose">
@@ -159,12 +159,12 @@ function Header() {
                   <ul className="navbar-nav">
                     <li className="nav-item">
                       <a className="nav-link scroll" href="#home">
-                        HOME
+                        Home
                       </a>
                     </li>
                     <li className="nav-item">
                       <a className="nav-link scroll" href="#about-sec">
-                        ABOUT
+                        About AdLab
                       </a>
                     </li>
                     <li className="nav-item">
@@ -172,22 +172,12 @@ function Header() {
                         className="nav-link scroll"
                         href="#company-portfolio-section"
                       >
-                        PORTFOLIO
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link scroll" href="#testimonial-sec">
-                        CLIENTS
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link scroll" href="#blog-sec">
-                        BLOG
+                        Built By Doctors
                       </a>
                     </li>
                     <li className="nav-item">
                       <a className="nav-link scroll" href="#contact-sec">
-                        CONTACT
+                        Contact
                       </a>
                     </li>
                   </ul>
@@ -196,10 +186,10 @@ function Header() {
               <div className="col-12 col-lg-4 d-flex align-items-center">
                 <div className="side-footer text-white w-100">
                   <div className="menu-company-details">
-                    <span>+1 631 123 4567</span>
-                    <span>email@website.com</span>
+                    <span>+385 1 234 56 78</span>
+                    <span>info@adlab.hr</span>
                   </div>
-                  <ul className="social-icons-simple">
+                  {/* <ul className="social-icons-simple">
                     <li>
                       <a
                         className="facebook-text-hvr"
@@ -232,9 +222,10 @@ function Header() {
                         <i className="fab fa-instagram"></i>{" "}
                       </a>
                     </li>
-                  </ul>
+                  </ul> */}
                   <p className="text-white">
-                    &copy; 2020 MegaOne. Made With Love by Themesindustry
+                    © 2020 AdLab. Made With Love By{" "}
+                    <a href="https://reset.hr">reset.hr</a>
                   </p>
                 </div>
               </div>

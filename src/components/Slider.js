@@ -37,7 +37,7 @@ function Slider() {
                 </a>
               </div>
             </div>
-
+{/* 
             <div className="slider-slide">
               <div className="slider-inner-content">
                 <h4 className="slide-heading">
@@ -82,7 +82,7 @@ function Slider() {
                   <span></span>
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div
@@ -93,16 +93,16 @@ function Slider() {
             <div className="img-slide">
               <img className="single-img-slide" src={Slika1} alt="1" />
             </div>
-            <div className="img-slide">
+            {/* <div className="img-slide">
               <img className="single-img-slide" src={Slika2} alt="2" />
             </div>
             <div className="img-slide">
               <img className="single-img-slide" src={Slika3} alt="3" />
-            </div>
+            </div> */}
           </div>
         </div>
 
-        <div className="slider-arrows">
+        {/* <div className="slider-arrows">
           <a
             href="javascript:void(0);"
             className="slider-arr slider-arr-up"
@@ -117,7 +117,7 @@ function Slider() {
           >
             <i className="fas fa-angle-down"></i>
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );
