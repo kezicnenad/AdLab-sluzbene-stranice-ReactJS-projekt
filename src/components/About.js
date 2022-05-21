@@ -9,7 +9,7 @@ function Second() {
       <div className="container">
         <div className="row">
           <div className="col-12 col-lg-6 services-area padding-top padding-bottom">
-            <div className="purple-overlay" style={{backgroundImage: 'url(' + Slika1 + ')', backgroundPosition: 'center', backgroundSize: '100%'}}>
+            <div className="purple-overlay" style={{backgroundImage: 'url(' + Slika1 + ')', backgroundPosition: 'center', backgroundSize: 'cover'}}>
             </div>
             <div className="row no-gutters wow fadeInLeft">
             </div>
