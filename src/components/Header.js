@@ -63,7 +63,7 @@ function Header() {
             <div className="row">
               <div className="col-4 col-lg-3">
                 <a className="navbar-brand simple-nav-logo" href="/">
-                  <img src={imgLogo} alt="logo" className='logo' />
+                  <img src={imgLogoBlack} alt="logo" className='logo' />
                 </a>
                 <a className="navbar-brand fixed-nav-logo" href="/">
                   <img src={imgLogoBlack} alt="logo" />
