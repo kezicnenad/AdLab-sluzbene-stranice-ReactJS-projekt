@@ -186,8 +186,8 @@ function Header() {
               <div className="col-12 col-lg-4 d-flex align-items-center">
                 <div className="side-footer text-white w-100">
                   <div className="menu-company-details">
-                    <span>+385 1 234 56 78</span>
-                    <span>info@adlab.hr</span>
+                    <span>+385 99 194 88 84</span>
+                    <span>office@adlab.hr</span>
                   </div>
                   {/* <ul className="social-icons-simple">
                     <li>
