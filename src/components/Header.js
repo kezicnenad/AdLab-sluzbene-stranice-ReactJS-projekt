@@ -20,12 +20,12 @@ function Header() {
                 <ul className="top-personal-info">
                   <li>
                     <a href="#">
-                      <i className="las la-phone"></i> +385 1 234 56 78
+                      <i className="las la-phone"></i> +385 99 194 88 84
                     </a>
                   </li>
                   <li>
-                    <a href="#">
-                      <i className="las la-envelope"></i> info@adlab.hr
+                    <a href="#contact-sec">
+                      <i className="las la-envelope"></i> office@adlab.hr
                     </a>
                   </li>
                 </ul>
@@ -224,7 +224,7 @@ function Header() {
                     </li>
                   </ul> */}
                   <p className="text-white">
-                    © 2020 AdLab. Made With Love By{" "}
+                    © 2022. AdLab. Made With Love By{" "}
                     <a href="https://reset.hr">reset.hr</a>
                   </p>
                 </div>

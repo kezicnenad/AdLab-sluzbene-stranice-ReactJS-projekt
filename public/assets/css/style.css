@@ -42,6 +42,7 @@
     Google font
 ====================================== */
 
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;300;400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,500&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Oswald:300,500,700&display=swap');
 
@@ -78,8 +79,8 @@ body{
     position: relative;
 }
 
-body {font-family: 'Roboto', sans-serif; font-size: 16px;color: #2b2b2b;font-weight:300;line-height:25px;width: 100%; overflow-x: hidden}
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {line-height: 1.2; font-weight: 500; font-family: 'Roboto', sans-serif;margin-bottom: 0}
+body {font-family: 'Archivo', sans-serif; font-size: 16px;color: #2b2b2b;font-weight:100;line-height:25px;width: 100%; overflow-x: hidden}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {line-height: 1.2; font-weight: 500; font-family: Archivo, sans-serif;margin-bottom: 0}
 a, *::before, *::after, img, span, input, button, .navbar, .fixedmenu, .tp-bullet, .owl-dot, .owl-prev, .owl-next {transition: ease-in-out 0.2s;-webkit-transition: ease-in-out 0.2s;-moz-transition: ease-in-out 0.2s;-ms-transition: ease-in-out 0.2s;-o-transition: ease-in-out 0.2s;}
 section,.section-padding {position: relative;overflow: hidden;}
 a {color:inherit;text-decoration: none;}
@@ -107,7 +108,7 @@ ul{margin-bottom: 0;}
 .opacity-9{opacity: .9;}
 
 /* button */
-.btn {-webkit-appearance: initial; overflow: hidden;position: -webkit-sticky;position: sticky; z-index: 2; display:inline-block; font-size: 17px; border:2px solid transparent; letter-spacing: .5px; line-height: inherit; border-radius: 0; text-transform:capitalize; width: auto;font-family: 'Roboto', sans-serif; font-weight: 500; -webkit-transition: all .5s ease;-o-transition: all .5s ease !important;transition: all .5s ease !important;}
+.btn {-webkit-appearance: initial; overflow: hidden;position: -webkit-sticky;position: sticky; z-index: 2; display:inline-block; font-size: 17px; border:2px solid transparent; letter-spacing: .5px; line-height: inherit; border-radius: 0; text-transform:capitalize; width: auto;font-family: Archivo, sans-serif; font-weight: 500; -webkit-transition: all .5s ease;-o-transition: all .5s ease !important;transition: all .5s ease !important;}
 /* button size */
 
 /* background color */
@@ -168,14 +169,14 @@ ul{margin-bottom: 0;}
  }
 .heading{
     color: #FFFFFF;
-    font-family: Oswald, sans-serif;
+    font-family: Archivo, sans-serif;
     font-size: 60px;
     font-weight: 700;
     margin-bottom: 50px;
 }
 .text{
     color: #FFFFFF;
-    font-family: Roboto, sans-serif;
+    font-family: Archivo, sans-serif;
     font-size: 16px;
     font-weight: 300;
 }
@@ -190,7 +191,7 @@ ul{margin-bottom: 0;}
     background-color: transparent;
     transition: .5s ease;
     font-size: 14px;
-    font-family: Roboto, sans-serif;
+    font-family: Archivo, sans-serif;
 }
 .white-trans-btn:hover{
     background-color: #FFFFFF;
@@ -203,7 +204,7 @@ ul{margin-bottom: 0;}
     padding: 8px 35px;
     background-color: #8eaada;
     font-size: 14px;
-    font-family: Roboto, sans-serif;
+    font-family: Archivo, sans-serif;
 
     border-radius: 0.5em;
     text-transform: uppercase;
@@ -237,7 +238,7 @@ ul{margin-bottom: 0;}
     padding: 8px 35px;
     background-color: #f71c52;
     font-size: 14px;
-    font-family: Roboto, sans-serif;
+    font-family: Archivo, sans-serif;
 
     border-radius: 0.5em;
     text-transform: uppercase;
@@ -273,7 +274,7 @@ ul{margin-bottom: 0;}
     padding: 8px 35px;
     background-color: #554c86;
     font-size: 14px;
-    font-family: Roboto, sans-serif;
+    font-family: Archivo, sans-serif;
 
     border-radius: 0.5em;
     letter-spacing: 0.1em;
@@ -314,7 +315,7 @@ ul{margin-bottom: 0;}
     font-size: 13px;
     padding: 10px 30px 10px 30px;
     transition: .8s ease;
-    font-family: 'Roboto', sans-serif;
+    font-family: Archivo, sans-serif;
     font-weight: 500;
     text-decoration: none;
 }
@@ -399,7 +400,7 @@ header .upper-nav .top-personal-info li:last-child{
 header .upper-nav .top-personal-info li a{
     color: #333333;
     font-size: 14px;
-    font-family: Roboto, sans-serif;
+    font-family: Archivo, sans-serif;
     transition: .5s ease;
     font-weight: 400;
 }
@@ -455,24 +456,29 @@ header .top-social-links li a:hover i{
 
 /*main navigation*/
 
-.simple-nav-logo img{
-    height: 180px;
+.simple-nav-logo{
+    height: 200px;
     width: 200px;
     background-color: #fff;
     text-align: center;
     position: relative;
-    top: 40px;
+    top: 60px;
     border-radius: 50%;
-    padding: 20px;
+    padding: 10px;
     z-index: 111;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, .2);
+}
+
+.logo{
+    width: 85%;
+    margin-top: 45px;
 }
 
 header .fixed-nav-logo{
     display: none;
 }
 header .navbar-brand img{
-    max-width: 80%;
+    max-width: 100%;
 }
 header .main-navigation{
     padding-top: 30px;
@@ -487,19 +493,25 @@ header .main-navigation nav .navbar-nav .nav-item{
 header .main-navigation nav .navbar-nav .nav-item .nav-link{
     padding-top: 0;
     color: #000000;
-    font-family: Oswald, sans-serif;
+    font-family: Archivo, sans-serif;
     font-size: 16px;
     font-weight: 500;
     transition: .5s ease;
 }
 header .main-navigation nav .navbar-nav .nav-item .nav-link:hover, header .main-navigation nav .navbar-nav .nav-item .nav-link.active{
-    color: #f71c52;
-}
+    color: #000;
+    font-weight: 700;
+    transition: .2s;
+    }
 header .main-navigation nav .navbar-nav .nav-item:nth-child(even) .nav-link:hover, header .main-navigation nav .navbar-nav .nav-item:nth-child(even) .nav-link.active{
-    color: #39d47a;
+    color: #000;
+    font-weight: 700;
+    transition: .2s;
 }
 header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover, header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link.active{
-    color: #554c86;
+    color: #000;
+    font-weight: 700;
+    transition: .2s;
 }
 
 
@@ -688,6 +700,7 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
 /*side open btn*/
 
 .sidemenu_btn {
+    display: none !important;
     -webkit-transition: all .3s linear;
     -o-transition: all .3s linear;
     transition: all .3s linear;
@@ -814,7 +827,7 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
     line-height: normal;
     position: relative;
     border-radius: 0;
-    font-family: Oswald, sans-serif;
+    font-family: Archivo, sans-serif;
 }
 .side-nav .navbar-nav .nav-link::after{
     content: "";
@@ -853,7 +866,7 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
     display: block;
     color: #FFFFFF;
     font-size:16px;
-    font-family: Roboto, sans-serif;
+    font-family: Archivo, sans-serif;
     font-weight: 300;
     margin-bottom: 5px;
 }
@@ -964,7 +977,7 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
 }
 .slider-area .slider-detail .slider-slide .slider-inner-content .slide-heading{
     color: #334c74;
-    font-family: Oswald, sans-serif;
+    font-family: Archivo, sans-serif;
     font-size: 60px;
     font-weight: 700;
     margin-bottom: 30px;
@@ -975,7 +988,7 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
 .slider-area .slider-detail .slider-slide .slider-inner-content .slide-text{
     color: #334c74;
     font-weight: 300;
-    font-family: Roboto, sans-serif;
+    font-family: Archivo, sans-serif;
     font-size: 16px;
     margin-bottom: 30px;
 }
@@ -1075,7 +1088,7 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
 .about-sec .services-area .services .service-card .card-heading{
     color: #FFFFFF;
     font-size: 28px;
-    font-family: Oswald, sans-serif;
+    font-family: Archivo, sans-serif;
     font-weight: 300;
     transition: .5s ease;
 }
@@ -1095,7 +1108,7 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
 ====================================== */
 
 .stats-sec .stats-heading-area .sub-heading{
-    font-family: Roboto, sans-serif;
+    font-family: Archivo, sans-serif;
     font-size:18px;
     color: #f71c52;
     font-weight: 400;
@@ -1137,7 +1150,7 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
 .stats-sec .circular-wrap .circle .counter-num {
     color: #000000;
     font-size: 1.875rem;
-    font-family: Roboto, sans-serif;
+    font-family: Archivo, sans-serif;
     font-weight: 300;
 }
 
@@ -1146,7 +1159,7 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
     margin-left: auto;
     margin-right: auto;
     font-weight: 500;
-    font-family: Roboto, sans-serif;
+    font-family: Archivo, sans-serif;
     color: #000000;
     font-size: 20px;
     opacity: .7;
@@ -1212,7 +1225,7 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
 }
 .team-sec .inner-team-sec .team-carousel .team-box .team-info{
     color: #FFFFFF;
-    font-family: Roboto, sans-serif;
+    font-family: Archivo, sans-serif;
     margin-top: 30px;
 }
 .team-sec .inner-team-sec .team-carousel .team-box .team-info .team-name{
@@ -1367,7 +1380,7 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
     font-size: 13px;
     font-weight: 600;
     color: #000000;
-    font-family: 'Roboto', sans-serif;
+    font-family: Archivo, sans-serif;
     margin-right: 15px;
     border-bottom: solid 2px transparent ;
 }
@@ -1393,7 +1406,7 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
 }
 .cbp-l-caption-title {
     color: #ffffff !important;
-    font-family: 'Roboto', sans-serif !important;
+    font-family: Archivo, sans-serif !important;
     font-weight: 400 !important;
     font-size: 15px !important;
 }
@@ -1421,14 +1434,14 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
     transform: rotate(90deg);
 }
 .portfolio-hover-effect .hover-text .p-hover-title{
-    font-family: 'Roboto', sans-serif;
+    font-family: Archivo, sans-serif;
     font-size: 20px;
     color: #FFFFFF;
     font-weight: 500;
     margin-bottom: 0;
 }
 .portfolio-hover-effect .hover-text .p-hover-des{
-    font-family: 'Open Sans', sans-serif;
+    font-family: Archivo, sans-serif;
     font-size: 14px;
     color: #FFFFFF;
 }
@@ -1465,7 +1478,7 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
 .portfolio-foot-detail .p-text{
     color: #000000;
     font-size: 13px;
-    font-family: 'Roboto', sans-serif;
+    font-family: Archivo, sans-serif;
     font-weight: 400;
     display: inline-block;
     margin-bottom: 8px;
@@ -1477,7 +1490,7 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
 .portfolio-foot-detail .p-num{
     color: #000000;
     font-size: 50px;
-    font-family: 'Roboto', sans-serif;
+    font-family: Archivo, sans-serif;
     font-weight: bold;
 }
 
@@ -1531,7 +1544,7 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
     color: #FFFFFF;
     font-size: 24px;
     font-weight: 400;
-    font-family: Roboto, sans-serif;
+    font-family: Archivo, sans-serif;
 }
 /* ===================================
         Our Cast sec css
@@ -1654,7 +1667,7 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
     z-index: -1;
 }
 .contact-sec .contact-details{
-    font-family: Roboto, sans-serif;
+    font-family: Archivo, sans-serif;
     width: 90%;
     margin-left: 20px;
 }
@@ -1950,7 +1963,7 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
     width: 900px;
     height: 500px;}
 .slider-sec .inner-slider-content h4{
-    font-family:Oswald, sans-serif;
+    font-family: Archivo, sans-serif;
     font-weight: bold;
     font-size: 60px;
     color: #FFFFFF;
@@ -1975,7 +1988,7 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
 .crumbs .breadcrumb li a{
     color: #FFFFFF;
     font-size: 16px;
-    font-family: 'Roboto', sans-serif;
+    font-family: Archivo, sans-serif;
     text-decoration: none;
     border-bottom: solid 1px transparent;
     transition: .5s ease;
@@ -2008,13 +2021,13 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
     font-size: 40px;
     color: #000000;
     font-weight: 500;
-    font-family: Roboto , sans-serif;
+    font-family: Archivo , sans-serif;
 }
 
 .standalone-detail .para_text{
     color: #000000;
     font-weight: 500;
-    font-family: Roboto , sans-serif;
+    font-family: Archivo , sans-serif;
     text-align: center;
     font-size: 15px;
     margin: 0 auto;
@@ -2026,12 +2039,12 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
     padding-bottom: 100px;
 }
 .standalone-area .gradient-text1{
-    font-family: 'Roboto', sans-serif;
+    font-family: Archivo, sans-serif;
     font-weight: 500;
     margin-bottom: 12px;
 }
 .standalone-area .stand-img-des .para_text{
-    font-family: 'Roboto', sans-serif;
+    font-family: Archivo, sans-serif;
     color: #000000;
     font-weight: 300;
     opacity: .8;
@@ -2074,6 +2087,9 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
     }
 }
 @media (min-width:768px) and (max-width:991px){
+.sidemenu_btn{
+    display: block !important;
+}
     header .upper-nav{
         display: none;
     }
@@ -2298,10 +2314,20 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
 
 
 @media screen and (max-width:767px){
-    .simple-nav-logo img {
-            height: 80px;
-            width: 100px !important;
-            top: 5px;
+.sidemenu_btn {
+        display: block !important;
+    }
+        .simple-nav-logo {
+        height: 120px;
+        width: 120px !important;
+        top: 20px;
+        position: relative;
+        padding: 10px;
+    }
+
+    .logo{
+        width: 85%;
+        margin-top: 25px !important;
     }
 
     .col-12.col-lg-5.d-flex.align-items-center.text-center.text-lg-left {

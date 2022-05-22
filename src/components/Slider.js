@@ -21,9 +21,7 @@ function Slider() {
                   Blue <span>AdLab</span>
                 </h4>
                 <p className="slide-text">
-                  Lorem ipsum is simply dummy text of the printing and
-                  typesetting. Lorem Ipsum has been the industry’s standard
-                  dummy. Lorem Ipsum has been the industry’s standard dummy.
+                  je boutique healthcare marketing agency specijalizirana za pružanje pomoći sudionicima zdravstvenog sustava.
                 </p>
                 <a
                   href="#about-sec"

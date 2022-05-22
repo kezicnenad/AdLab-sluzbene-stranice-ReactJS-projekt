@@ -15,7 +15,7 @@ function Second() {
                 backgroundImage: "url(" + Slika1 + ")",
                 backgroundPosition: "center",
                 backgroundSize: "cover",
-                borderRight: '15px solid white'
+                borderRight: "15px solid white",
               }}
             ></div>
             <div className="row no-gutters wow fadeInLeft"></div>
@@ -27,21 +27,25 @@ function Second() {
                   We are <span>AdLab agency</span>
                 </h4>
                 <p className="text">
-                  Lorem ipsum is simply dummy text of the printing and
-                  typesetting. Lorem Ipsum has been the industry’s standard
-                  dummy. Lorem Ipsum has been the industry’s standard dummy.
-                  Lorem ipsum is simply dummy text of the printing and
-                  typesetting. Lorem Ipsum has been the industry’s standard
-                  dummy. Lorem Ipsum has been the industry’s standard dummy.
+                  Blue Ad Lab je boutique healthcare marketing agency
+                  specijalizirana za pružanje pomoći sudionicima zdravstvenog
+                  sustava (liječnicima, farmaceutskim tvrtkama, udrugama) u
+                  njihovim svakodnevnim komunikacijskim aktivnostima. Svojim
+                  radom želimo medicinu i znanost dodatno približiti javnosti te
+                  tako unaprijeediti zdravlje i kvalitetu života čitavog
+                  društva.
                 </p>
                 <p className="text">
-                  Lorem ipsum is simply dummy text of the printing and
-                  typesetting. Lorem Ipsum has been the industry’s standard
-                  dummy. Lorem Ipsum has been the industry’s standard dummy.
+                  Materijali su dostupni na hrvatskom jeziku i mogu biti
+                  prilagođeni vašim potrebama. • TABLICE INTERAKCIJSKIH LIJEKOVA
+                  • MEDICINSKI PLAKATI I ILUSTRACIJE • MEDICINSKI KALKULATORI •
+                  EDUKATIVNE BROŠURE ZA PACIJENETE • VJEŽBE PREMA ZDRAVSVENOM
+                  STANJU • NAPREDNI DIGITALNI ALATI I APLIKACIJE • MULTIMEDIJSKI
+                  SADRŽAJI ZA DRUŠTVENE MREŽE • VIDEO MATERIJAL
                 </p>
 
                 <a
-                  href="#about-sec"
+                  href="#company-portfolio-section"
                   id="we-are"
                   className="btn anim-btn rounded-pill scroll"
                 >

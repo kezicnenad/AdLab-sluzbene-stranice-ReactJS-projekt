@@ -109,22 +109,51 @@ function Contact() {
           <div className="col-12 col-lg-5 text-center text-lg-left position-relative">
             <div className="contact-details wow fadeInRight">
               <h4 className="heading">Our location</h4>
-              <p className="text">
+              {/* <p className="text">
                 There are many variations of passages of Lorem Ipsum available,
                 but the majority have suffered .
-              </p>
+              </p> */}
               <ul>
                 <li>
-                  <i className="las la-map-marker addr"></i>123 Park Avenue, New
-                  York, United States{" "}
+                  <i className="las la-map-marker addr"></i>
+                  <span>
+                    <b>Kontakt URED</b>
+                    <br />
+                    Blue Ad Lab d.o.o.
+                    <br />
+                    Ilica 1a
+                    <br />
+                    HR-10000 Zagreb
+                  </span>
+                </li>
+                <li>
+                  <i className="las la-map-marker addr"></i>
+                  <span>
+                    <b>Kontakt SJEDIŠTE</b>
+                    <br />
+                    Blue Ad Lab d.o.o.
+                    <br />
+                    Brestik 1
+                    <br />
+                    HR-10000 Zagreb
+                    <br />
+                    <br />
+                    IBAN: HR8824020061101079976
+                    <br />
+                    Erste&Steiermärkische Bank d.d.
+                    <br />
+                    <br />
+                    OIB: 06495723825
+                    <br />
+                    REGISTARSKI SUD Trgovački sud u Zagreb
+                  </span>
                 </li>
                 <li>
                   <i className="las la-phone-volume phone"></i>
-                  <span>+385 1 234 56 78</span>
-                  <span>+385 1 234 56 78</span>
+                  <span>+385 99 194 88 84</span>
                 </li>
                 <li>
-                  <i className="las la-paper-plane email"></i>info@adlab.hr
+                  <i className="las la-paper-plane email"></i>office@adlab.hr
                 </li>
               </ul>
             </div>

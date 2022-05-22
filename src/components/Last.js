@@ -3,7 +3,7 @@ import imgLast from "../assets/img/last/last.jpg";
 
 function Last() {
   return (
-    <section className="blog-sec2" id="company-portfolio-section">
+    <section className="blog-sec2" id="last-section">
       <div className="right-overlay"></div>
       <div className="container position-relative">
         <div className="blog-inner-overlay2"></div>
@@ -16,12 +16,20 @@ function Last() {
           <div className="col-12 col-lg-5 d-flex align-items-center text-center text-lg-left last padding-bottom">
             <div className="blog-detail wow fadeInLeft padding-top">
               <p className="text">
-                Lorem ipsum is simply dummy text of the printing and
-                typesetting. Lorem Ipsum has been the industry’s standard dummy.
+                Built by Doctors globalni je industrijski lider u proizvodnji
+                stručnog sadržaja najviše kvalitete za potrebe edukativnih
+                marketinških materijala farmaceutske industrije. Svi materijali
+                temeljeni su na uvijek recentnim znanstvenim podacima i
+                saznanjima i rezultat su interdisciplarnog rada tima
+                sastavljenog od liječnika, medicinskih novinara, graﬁčkih
+                dizajnera i specijaliziranih medicinskih ilustratora.
               </p>
               <p className="text">
-                Lorem ipsum is simply dummy text of the printing and
-                typesetting. Lorem Ipsum has been the industry’s standard dummy.
+                Built by Doctors portfolio pokriva više od 20 područja i više od
+                170 zdravstvenih stanja te sadrži više od 1200 stručnih
+                medicinskih materijala namijenjenih liječnicima, farmaceutima,
+                zdravsvenim djelatnicima te pacijentima i njihovim
+                njegovateljima i bližnjima.
               </p>
             </div>
           </div>

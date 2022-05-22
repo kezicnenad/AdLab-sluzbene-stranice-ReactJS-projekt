@@ -45,7 +45,7 @@ function Footer() {
           {/* <!--Text--> */}
           <div className="col-lg-6 text-center text-lg-right">
             <p className="company-about fadeIn">
-              © 2020 AdLab. Made With Love By{" "}
+              © 2022. AdLab. Made With Love By{" "}
               <a href="https://reset.hr">reset.hr</a>
             </p>
           </div>

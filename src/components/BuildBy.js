@@ -14,13 +14,13 @@ function BuildBy() {
                 Build by <span>Doctors</span>
               </h4>
               <p className="text">
-                Lorem ipsum is simply dummy text of the printing and
-                typesetting. Lorem Ipsum has been the industry’s standard dummy.
+                Blue Ad Lab ekskluzivni je partner tvrtke Built By Doctors za
+                područje Hrvatske.
               </p>
               <a
                 className="btn anim-btn rounded-pill"
                 id="we-are"
-                href="assets/standard-blog.html"
+                href="#contact-sec"
               >
                 LEARN MORE
                 <span></span>
@@ -32,7 +32,7 @@ function BuildBy() {
           </div>
           <div className="col-12 col-lg-6 offset-lg-1 padding-bottom">
             <div className="blog-img wow fadeInRight">
-              <img src={imgBuild} alt="blog-img" className='blog-image' />
+              <img src={imgBuild} alt="blog-img" className="blog-image" />
             </div>
           </div>
         </div>
