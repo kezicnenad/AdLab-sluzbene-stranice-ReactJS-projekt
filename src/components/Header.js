@@ -20,7 +20,7 @@ function Header() {
                 <ul className="top-personal-info">
                   <li>
                     <a href="#">
-                      <i className="las la-phone"></i> +385 99 194 88 84
+                      {/* <i className="las la-phone"></i> +385 99 194 88 84 */}
                     </a>
                   </li>
                   <li>

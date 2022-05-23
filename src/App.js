@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Slider from "./components/Slider";
 import About from "./components/About";
 import BuildBy from "./components/BuildBy";
+import BuildBy2 from "./components/BuildBy2";
 import Last from "./components/Last";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -20,6 +21,7 @@ function App() {
       <Slider />
       <About />
       <BuildBy />
+      <BuildBy2 />
       <Last />
       <Contact />
       <Lines />

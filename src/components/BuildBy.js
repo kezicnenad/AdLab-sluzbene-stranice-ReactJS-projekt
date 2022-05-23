@@ -15,14 +15,14 @@ function BuildBy() {
               </h4>
               <p className="text">
                 Blue Ad Lab ekskluzivni je partner tvrtke Built By Doctors za
-                područje Hrvatske.
+                područje Republike Hrvatske.
               </p>
               <a
                 className="btn anim-btn rounded-pill"
                 id="we-are"
                 href="#contact-sec"
               >
-                LEARN MORE
+                VIDI VIŠE
                 <span></span>
                 <span></span>
                 <span></span>

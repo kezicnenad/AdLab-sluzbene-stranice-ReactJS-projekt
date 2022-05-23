@@ -21,13 +21,13 @@ function Slider() {
                   Blue <span>AdLab</span>
                 </h4>
                 <p className="slide-text">
-                  je boutique healthcare marketing agency specijalizirana za pružanje pomoći sudionicima zdravstvenog sustava.
+                  je boutique healthcare marketing agencija specijalizirana za pružanje pomoći sudionicima zdravstvenog sustava.
                 </p>
                 <a
                   href="#about-sec"
                   className="btn anim-btn rounded-pill scroll"
                 >
-                  LEARN MORE
+                  VIDI VIŠE
                   <span></span>
                   <span></span>
                   <span></span>

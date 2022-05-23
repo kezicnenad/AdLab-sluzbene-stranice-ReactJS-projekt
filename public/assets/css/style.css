@@ -121,6 +121,11 @@ ul{margin-bottom: 0;}
 .purple-color {color: #554c86;}
 .green-color {color: #8eaada;}
 
+.last-sec{
+    margin-top: 40px;
+    background-color: #8eaada;
+}
+
 /*Max Width*/
 .parallax-disable{
     background-repeat: no-repeat !important;
@@ -1618,7 +1623,11 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
     margin-top: 10px;
 }
 
-.blog-sec2 .blog-area p.text:last-child{
+.blog-sec2 .blog-area p.text:first-child {
+    padding-bottom: 40px;
+}
+
+.blog-sec2 .blog-area p.text:last-child {
     padding-bottom: 40px;
 }
 
