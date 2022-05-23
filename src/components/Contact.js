@@ -43,7 +43,7 @@ function Contact() {
       <div className="container">
         <div className="row">
           <div className="col-12 col-lg-7">
-            <h4 className="heading text-center text-lg-left">Get in Touch</h4>
+            <h4 className="heading text-center text-lg-left">Kontakt formular</h4>
             <form
               ref={form}
               onSubmit={sendEmail}
@@ -55,7 +55,7 @@ function Contact() {
                 <input
                   type="text"
                   name="from_name"
-                  placeholder="Your Name"
+                  placeholder="Vaše ime"
                   className="form-control"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
@@ -63,7 +63,7 @@ function Contact() {
                 <input
                   type="email"
                   name="from_mail"
-                  placeholder="Email Address *"
+                  placeholder="Email"
                   className="form-control"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
@@ -71,7 +71,7 @@ function Contact() {
                 <input
                   type="text"
                   name="subject"
-                  placeholder="Subject"
+                  placeholder="Naslov"
                   className="form-control"
                   value={subject}
                   onChange={(e) => setSubject(e.target.value)}
@@ -81,7 +81,7 @@ function Contact() {
                 <textarea
                   className="form-control"
                   name="message"
-                  placeholder="Your Message"
+                  placeholder="Sadržaj poruke"
                   rows="6"
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
@@ -96,7 +96,7 @@ function Contact() {
                     className="fa fa-spinner fa-spin mr-2 d-none"
                     aria-hidden="true"
                   ></i>
-                  Send Message
+                  Pošalji poruku
                   <span></span>
                   <span></span>
                   <span></span>
@@ -108,7 +108,7 @@ function Contact() {
           </div>
           <div className="col-12 col-lg-5 text-center text-lg-left position-relative">
             <div className="contact-details wow fadeInRight">
-              <h4 className="heading">Our location</h4>
+              <h4 className="heading">Kontaktirajte nas</h4>
               {/* <p className="text">
                 There are many variations of passages of Lorem Ipsum available,
                 but the majority have suffered .
