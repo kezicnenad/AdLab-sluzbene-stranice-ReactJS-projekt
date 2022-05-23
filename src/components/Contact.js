@@ -43,7 +43,7 @@ function Contact() {
       <div className="container">
         <div className="row">
           <div className="col-12 col-lg-7">
-            <h4 className="heading text-center text-lg-left">Kontakt formular</h4>
+            <h4 className="heading text-center text-lg-left">Kontakt forma</h4>
             <form
               ref={form}
               onSubmit={sendEmail}
@@ -108,7 +108,7 @@ function Contact() {
           </div>
           <div className="col-12 col-lg-5 text-center text-lg-left position-relative">
             <div className="contact-details wow fadeInRight">
-              <h4 className="heading">Kontaktirajte nas</h4>
+              <h4 className="heading">Javite nam se</h4>
               {/* <p className="text">
                 There are many variations of passages of Lorem Ipsum available,
                 but the majority have suffered .
