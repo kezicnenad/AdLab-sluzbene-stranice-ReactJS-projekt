@@ -224,7 +224,7 @@ function Header() {
                     </li>
                   </ul> */}
                   <p className="text-white">
-                    © 2022. AdLab. Made With Love By{" "}
+                    © 2022. Ad Lab. Made With Love By{" "}
                     <a href="https://reset.hr">reset.hr</a>
                   </p>
                 </div>
