@@ -18,13 +18,13 @@ function Slider() {
             <div className="slider-slide">
               <div className="slider-inner-content">
                 <h4 className="slide-heading">
-                  Blue <span>AdLab</span>
+                  Blue Ad Lab - boutique healthcare marketing agencija
                 </h4>
-                <p className="slide-text">
-                  je boutique healthcare marketing agencija specijalizirana za pružanje pomoći sudionicima zdravstvenog sustava.
-                </p>
+                {/* <p className="slide-text">
+                  specijalizirana za pružanje pomoći sudionicima zdravstvenog sustava.
+                </p> */}
                 <a
-                  href="#about-sec"
+                  href="#o-nama"
                   className="btn anim-btn rounded-pill scroll"
                 >
                   VIDI VIŠE

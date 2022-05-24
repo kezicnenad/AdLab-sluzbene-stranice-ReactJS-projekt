@@ -38,7 +38,7 @@ function Contact() {
   return (
     <section
       className="contact-sec padding-top padding-bottom"
-      id="contact-sec"
+      id="kontakt"
     >
       <div className="container">
         <div className="row">
@@ -115,7 +115,7 @@ function Contact() {
               </p> */}
               <ul>
                 <li>
-                  <i className="las la-map-marker addr"></i>
+                  {/* <i className="las la-map-marker addr"></i> */}
                   <span>
                     <b>Kontakt URED</b>
                     <br />
@@ -127,7 +127,7 @@ function Contact() {
                   </span>
                 </li>
                 <li>
-                  <i className="las la-map-marker addr"></i>
+                  {/* <i className="las la-map-marker addr"></i> */}
                   <span>
                     <b>Kontakt SJEDIŠTE</b>
                     <br />

@@ -11,18 +11,36 @@ function Last() {
           <div className="col-12 col-lg-5 d-flex align-items-center text-center text-lg-left">
             <div className="blog-detail wow fadeInLeft">
               <p className="text">
-                <b>Materijali su dostupni na hrvatskom jeziku</b>
+                <h4>
+                  <b>Materijali su dostupni na hrvatskom jeziku</b>
+                </h4>
                 <br />i mogu biti prilagođeni vašim potrebama.
               </p>
               <ul>
-                <li>TABLICE INTERAKCIJSKIH LIJEKOVA</li>
-                <li>MEDICINSKI PLAKATI I ILUSTRACIJE</li>
-                <li>MEDICINSKI KALKULATORI</li>
-                <li>EDUKATIVNE BROŠURE</li>
-                <li>VJEŽBA PREMA ZDRAVSTVENOM STANJU</li>
-                <li>NAPREDNI DIGITALNI ALATI I APLIKACIJE</li>
-                <li>MULTIMEDIJSKI SADRŽAJ ZA DRUŠTVENE MREŽE</li>
-                <li>VIDEO MATERIJAL</li>
+                <a href="https://builtbydoctors.com/paper-drug-interaction-charts/">
+                  <li>Tablice interakcije lijekova</li>
+                </a>
+                <a href="https://builtbydoctors.com/app-ss/">
+                  <li>Medicinski plakati i ilustracije</li>
+                </a>
+                <a href="https://builtbydoctors.com/medical-slide-rulers/">
+                  <li>Medicinski kalkulatori</li>
+                </a>
+                <a href="https://builtbydoctors.com/top-lw/">
+                  <li>Edukativne brošure</li>
+                </a>
+                <a href="https://builtbydoctors.com/app-ex/">
+                  <li>Vježba prema zdravstvenom stanju</li>
+                </a>
+                <a href="https://builtbydoctors.com/app-ss/">
+                  <li>Napredni digitalni alati i aplikacije</li>
+                </a>
+                <a href="https://socialmedia-health.com/smart-tools">
+                  <li>Multimedijski sadržaj za društvene mreže</li>
+                </a>
+                <a href="https://builtbydoctors.com/ipe-ss/">
+                  <li>Video materijal</li>
+                </a>
               </ul>
             </div>
           </div>

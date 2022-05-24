@@ -78,25 +78,25 @@ function Header() {
                     <ul className="navbar-nav ml-auto">
                       <li className="nav-item active">
                         <a className="nav-link home" href="#">
-                          Home
+                          Početna
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link scroll" href="#about-sec">
-                          About AdLab
+                        <a className="nav-link scroll" href="#o-nama">
+                          O nama
                         </a>
                       </li>
                       <li className="nav-item">
                         <a
                           className="nav-link scroll"
-                          href="#company-portfolio-section"
+                          href="#built-by-doctors"
                         >
                           Built By Doctors
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link scroll" href="#contact-sec">
-                          Contact
+                        <a className="nav-link scroll" href="#kontakt">
+                          Kontakt
                         </a>
                       </li>
                     </ul>

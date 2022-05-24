@@ -3,7 +3,7 @@ import imgBuild from "../assets/img/build/build.jpg";
 
 function BuildBy() {
   return (
-    <section className="blog-sec" id="company-portfolio-section">
+    <section className="blog-sec" id="built-by-doctors">
       <div className="left-overlay"></div>
       <div className="container position-relative">
         <div className="blog-inner-overlay"></div>
@@ -14,13 +14,12 @@ function BuildBy() {
                 Build by <span>Doctors</span>
               </h4>
               <p className="text">
-                Blue Ad Lab ekskluzivni je partner tvrtke Built By Doctors za
-                područje Republike Hrvatske.
+                Built by Doctors globalni je industrijski lider u proizvodnji stručnog sadržaja najviše kvalitete za potrebe edukativnih marketinških materijala farmaceutske industrije.
               </p>
               <a
                 className="btn anim-btn rounded-pill"
                 id="we-are"
-                href="#contact-sec"
+                href="#built-by-2"
               >
                 VIDI VIŠE
                 <span></span>

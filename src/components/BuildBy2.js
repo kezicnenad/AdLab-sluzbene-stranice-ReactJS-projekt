@@ -3,7 +3,7 @@ import imgLast from "../assets/img/last/last.jpg";
 
 function BuildBy2() {
   return (
-    <section className="blog-sec2" id="last-section">
+    <section className="blog-sec2" id="built-by-2">
       <div className="right-overlay"></div>
       <div className="container position-relative">
         <div className="blog-inner-overlay2"></div>
@@ -20,16 +20,19 @@ function BuildBy2() {
                 proizvodnji stručnog sadržaja najviše kvalitete za potrebe
                 edukativnih marketinških materijala farmaceutske industrije. Svi
                 materijali temeljeni su na uvijek recentnim znanstvenim podacima
-                i saznanjima i rezultat su interdisciplarnog rada tima
+                i saznanjima i rezultat su interdisciplinarnog rada tima
                 sastavljenog od liječnika, medicinskih novinara, graﬁčkih
                 dizajnera i specijaliziranih medicinskih ilustratora.
-              </p>
-              <p className="text">
-                Built by Doctors portfolio pokriva <b>više od 20 područja</b> i
+             <br/><br/>
+                Built by Doctors portfolio pokriva <b>više od 20 područja</b> i{" "}
                 <b>više od 170 zdravstvenih stanja</b> te sadrži{" "}
                 <b>više od 1200 stručnih medicinskih materijala</b> namijenjenih
-                liječnicima, farmaceutima, zdravsvenim djelatnicima te
+                liječnicima, farmaceutima, zdravstvenim djelatnicima te
                 pacijentima i njihovim njegovateljima i bližnjima.
+                <br />
+                <br />
+                Blue Ad Lab ekskluzivni je partner tvrtke Built By Doctors za
+                područje Republike Hrvatske.
               </p>
             </div>
           </div>
