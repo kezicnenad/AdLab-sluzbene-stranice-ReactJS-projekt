@@ -31,7 +31,7 @@ function Second() {
                   specijalizirana za pružanje pomoći sudionicima zdravstvenog
                   sustava (
                   <b>
-                    liječnicima, lijekarnicima, farmaceutskim tvrtkama, udrugama
+                    liječnicima, farmaceutima, farmaceutskim tvrtkama, udrugama
                   </b>
                   ) u njihovim svakodnevnim komunikacijskim aktivnostima. Svojim
                   radom želimo medicinu i znanost dodatno približiti javnosti te
