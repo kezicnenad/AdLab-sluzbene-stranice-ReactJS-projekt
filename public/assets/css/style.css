@@ -165,6 +165,14 @@ ul{margin-bottom: 0;}
 /* transition none */
 .no-transition *{transition-timing-function:initial; -moz-transition-timing-function:initial; -webkit-transition-timing-function:initial; -o-transition-timing-function:initial; -ms-transition-timing-function:initial; transition-duration: 0s; -moz-transition-duration: 0s; -webkit-transition-duration: 0s; -o-transition-duration: 0s; -ms-transition-duration: 0s;}
 
+.blog-sec2 .blog-area p.text:last-child {
+    padding-bottom: 40px;
+    padding-top: 80px;
+}
+
+.blog-sec2 .blog-area p.text:first-child {
+    padding-bottom: 0px !important;
+}
 .last-sec h4 {
     font-size: 25px;
 }
@@ -2344,6 +2352,11 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
 
 
 @media screen and (max-width:767px){
+.blog-sec2 .blog-area p.text:last-child {
+    padding-bottom: 40px;
+    padding-top: 0px;
+}
+
 .last-sec li{
     text-align: left;
 }

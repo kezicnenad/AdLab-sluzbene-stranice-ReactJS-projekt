@@ -27,10 +27,6 @@ function Second() {
                   <span>O nama</span>
                 </h4>
                 <p className="text">
-                  Blue Ad Lab ekskluzivni je partner tvrtke Built By Doctors za
-                  područje Republike Hrvatske.
-                  <br />
-                  <br />
                   Blue Ad Lab je boutique healthcare marketing agencija
                   specijalizirana za pružanje pomoći sudionicima zdravstvenog
                   sustava (
@@ -40,6 +36,10 @@ function Second() {
                   ) u njihovim svakodnevnim komunikacijskim aktivnostima. Svojim
                   radom želimo medicinu i znanost dodatno približiti javnosti te
                   tako unaprijediti zdravlje i kvalitetu života čitavog društva.
+                  <br />
+                  <br />
+                  Blue Ad Lab ekskluzivni je partner tvrtke Built By Doctors za
+                  područje Republike Hrvatske.
                 </p>
                 {/* <a
                   href="#company-portfolio-section"

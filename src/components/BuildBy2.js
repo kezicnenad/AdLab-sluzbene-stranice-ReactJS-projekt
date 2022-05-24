@@ -16,10 +16,7 @@ function BuildBy2() {
           <div className="col-12 col-lg-5 d-flex align-items-center text-center text-lg-left last padding-bottom">
             <div className="blog-detail wow fadeInLeft padding-top">
               <p className="text">
-                <b>Built by Doctors</b> globalni je industrijski lider u
-                proizvodnji stručnog sadržaja najviše kvalitete za potrebe
-                edukativnih marketinških materijala farmaceutske industrije. Svi
-                materijali temeljeni su na uvijek recentnim znanstvenim podacima
+                Svi materijali temeljeni su na uvijek recentnim znanstvenim podacima
                 i saznanjima i rezultat su interdisciplinarnog rada tima
                 sastavljenog od liječnika, medicinskih novinara, graﬁčkih
                 dizajnera i specijaliziranih medicinskih ilustratora.
