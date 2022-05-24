@@ -18,7 +18,7 @@ function Slider() {
             <div className="slider-slide">
               <div className="slider-inner-content">
                 <h4 className="slide-heading">
-                  Blue Ad Lab - boutique healthcare marketing agencija
+                  Blue Ad Lab - boutique healthcare marketing agency
                 </h4>
                 {/* <p className="slide-text">
                   specijalizirana za pružanje pomoći sudionicima zdravstvenog sustava.
