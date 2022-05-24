@@ -1,5 +1,5 @@
 import React from "react";
-import imgBuild from "../assets/img/build/build.jpg";
+import imgBuild from "../assets/img/build/materijali.jpg";
 
 function Last() {
   return (

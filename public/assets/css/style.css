@@ -2357,6 +2357,10 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
     padding-top: 0px;
 }
 
+.purple-overlay{
+    border-right: none !important;
+}
+
 .last-sec li{
     text-align: left;
 }
@@ -2404,7 +2408,6 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
 }
 .about-sec .about-area {
     margin-top: 210px;
-    background-color: #334c74 !important;
 }
 .blog-sec2 .right-overlay {
     top: 0px;

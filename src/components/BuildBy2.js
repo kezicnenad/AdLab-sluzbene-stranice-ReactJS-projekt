@@ -1,5 +1,5 @@
 import React from 'react';
-import imgLast from "../assets/img/last/last.jpg";
+import imgLast from "../assets/img/build/build2.jpg";
 
 function BuildBy2() {
   return (
@@ -14,7 +14,7 @@ function BuildBy2() {
             </div>
           </div>
           <div className="col-12 col-lg-5 d-flex align-items-center text-center text-lg-left last padding-bottom">
-            <div className="blog-detail wow fadeInLeft padding-top">
+            <div className="blog-detail wow fadeInLeft padding-top padding-top-build2">
               <p className="text">
                 Svi materijali temeljeni su na uvijek recentnim znanstvenim podacima
                 i saznanjima i rezultat su interdisciplinarnog rada tima
