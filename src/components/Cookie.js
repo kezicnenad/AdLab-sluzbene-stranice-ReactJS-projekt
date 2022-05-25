@@ -14,7 +14,7 @@ function Cookie() {
   } else {
       return (
         <div
-          className="alert text-center hj. cookiealert"
+          className="text-center hj. cookiealert"
           id="cookiealert"
           role="alert"
         >
