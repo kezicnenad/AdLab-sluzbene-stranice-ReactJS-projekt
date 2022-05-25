@@ -49,6 +49,20 @@
 i.las{
     color: #8dabd9 !important;
 }
+
+.cookiealert{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.cookieSaznaj{
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+
 /* ===================================
     Scrollbar
 ====================================== */
@@ -2352,6 +2366,20 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
 
 
 @media screen and (max-width:767px){
+.cookiealert{
+    display: flex;
+    flex-direction: column;
+}
+
+.cookieSaznaj {
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.acceptCookies{
+    margin-top: 20px;
+}
+
 .blog-sec2 .blog-area p.text:last-child {
     padding-bottom: 40px;
     padding-top: 0px;

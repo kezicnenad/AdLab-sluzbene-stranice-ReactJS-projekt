@@ -12,6 +12,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Lines from "./components/Lines";
 import End from "./components/End";
+import Cookie from "./components/Cookie";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <Lines />
       <Footer />
       <End />
+      <Cookie />
     </div>
   );
 }
