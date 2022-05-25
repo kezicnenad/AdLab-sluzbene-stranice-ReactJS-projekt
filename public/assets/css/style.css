@@ -50,11 +50,14 @@ i.las{
     color: #8dabd9 !important;
 }
 
+
+
 .cookiealert{
     position: fixed;
     bottom: 0px;
     width: 100%;
     background-color: #fff;
+    z-index: 3000 !important;
 }
 
 .cookieSaznaj{
