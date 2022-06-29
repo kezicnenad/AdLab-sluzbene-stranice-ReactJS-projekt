@@ -655,7 +655,7 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
     background-image: url("../img/side-menu.jpg");
     background-size: cover;
     background-position: center;
-    z-index: 2032;
+    z-index: 9000 !important;
     height: 100%;
     -webkit-transform: translate3d(0, 100%, 0);
     transform: translate3d(0, 100%, 0);
@@ -668,7 +668,7 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
     overflow: hidden;
 }
 .side-menu-opacity{
-    opacity:0;
+    opacity: 1;
 }
 .side-menu.left {
     left: 0; right: auto;
@@ -758,7 +758,13 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
     right: 30px;
     top: 61px;
     display: inline-block;
+    z-index: 99999999;
 }
+
+.sidemenu_btn:hover{
+    cursor: pointer;
+}
+
 .sidemenu_btn span {
     height: 2px;
     width: 100%;
@@ -2184,7 +2190,7 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
         top: 40px;
         right: 0;
     }
-    .header-appear ~ .side-menu .btn-close {
+    .header-appear .side-menu .btn-close {
         top: 30px;
         right: 23px;
     }
@@ -2195,8 +2201,16 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
     .header-appear .fixed-nav-logo img {
         width: 50%;
     }
-    .side-menu {
-        width: 100%;
+    .side-menu.side-menu-opacity {
+        display: block !important;
+        top: 0px !important;
+        position: absolute !important;
+        left: 0px !important;
+        opacity: 1 !important
+        width: 100% !important;
+        height: 100px !important;
+        z-index: 999999999 !important;
+        background-color: red !important;
     }
     .slider-area .slider-detail .slider-slide .slider-inner-content {
         width: 100%;
@@ -2515,9 +2529,16 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
     .header-appear .fixed-nav-logo img {
         width: 60%;
     }
-    .side-menu {
-        width: 100%;
-    }
+.side-menu {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: -100vh;
+    z-index: 999999999 !important;
+}
+.side-menu-none {
+    display: none;
+}
     .slider-area .slider-detail .slider-slide .slider-inner-content {
         width: 100%;
     }
