@@ -1,8 +1,23 @@
-import React from 'react';
+import React, { useState } from "react";
 import Menu from './Menu';
 import imgLogoBlack from "../assets/img/logo-black.png";
 
 function Header() {
+
+  const [menu, setMenu] = useState(false);
+
+  const openMenu = (e) => {
+    e.preventDefault();
+    setMenu(true);
+  }
+
+  const closeMenu = (e, page) => {
+    e.preventDefault();
+    setMenu(false);
+    window.open(page, "_self");
+    console.log(page);
+  };
+
   return (
     <header id="home">
       <div className="inner-header">
@@ -133,6 +148,7 @@ function Header() {
         <div
           className="sidemenu_btn"
           id="sidemenu_toggle"
+          onClick={e=>openMenu(e)}
         >
           <span></span>
           <span></span>
@@ -140,7 +156,7 @@ function Header() {
         </div>
       </div>
       {/* <!--Side Nav--> */}
-      <Menu />
+      <Menu menu={menu} closeMenu={closeMenu} />
     </header>
   );
 }

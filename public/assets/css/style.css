@@ -643,7 +643,7 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
     Side Menu
 ====================================== */
 .side-menu .bg-overlay{
-    background: rgba(247, 28, 82, 0.9);
+    background: #334c74;
 }
 .side-menu {
     width: 100%;
@@ -810,7 +810,7 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
     display: block;
     margin: 3px 0;
     padding: 0 !important;
-    opacity: 0;
+    opacity: 1;
     -webkit-transition: all 0.8s ease 500ms;
     -o-transition: all 0.8s ease 500ms;
     transition: all 0.8s ease 500ms;
@@ -872,15 +872,21 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
 }
 .side-nav .navbar-nav .nav-link {
     display: inline-table;
-    color: #fff;
+    color: #bdd5fa;
+    z-index: 999999999999999 !important;
     padding: 2px 0 3px 0 !important;
     font-size: 36px;
     font-weight: 700;
     line-height: normal;
     position: relative;
     border-radius: 0;
-    font-family: Archivo, sans-serif;
+    font-family: Archivo, sans-serif !important;
 }
+
+.col-12.col-lg-8{
+    padding-bottom: 100px;
+}
+
 .side-nav .navbar-nav .nav-link::after{
     content: "";
     position: absolute;
