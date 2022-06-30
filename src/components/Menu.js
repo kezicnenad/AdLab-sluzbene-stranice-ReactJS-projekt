@@ -28,11 +28,11 @@ function Menu({ menu, closeMenu }) {
                     <ul className="navbar-nav">
                       <li className="nav-item">
                         <a
-                          onClick={(e) => closeMenu(e, "/")}
+                          onClick={(e) => closeMenu(e, "#pocetna")}
                           className="nav-link scroll"
-                          href="/"
+                          href="#pocetna"
                         >
-                          Home
+                          Početna
                         </a>
                       </li>
                       <li className="nav-item">
@@ -41,7 +41,7 @@ function Menu({ menu, closeMenu }) {
                           className="nav-link scroll"
                           href="#o-nama"
                         >
-                          About AdLab
+                          O nama
                         </a>
                       </li>
                       <li className="nav-item">
@@ -59,7 +59,7 @@ function Menu({ menu, closeMenu }) {
                           href="#kontakt"
                           onClick={(e) => closeMenu(e, "#kontakt")}
                         >
-                          Contact
+                          Kontakt
                         </a>
                       </li>
                     </ul>

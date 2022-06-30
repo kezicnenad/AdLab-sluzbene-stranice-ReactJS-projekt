@@ -6,7 +6,7 @@ import Slika3 from "../assets/img/slides/slide3.jpg";
 
 function Slider() {
   return (
-    <section className="slider-area">
+    <section id="pocetna" className="slider-area">
       <div className="bg-overlay"></div>
       <div className="container position-relative">
         <div className="inner-bg-overlay"></div>
