@@ -32,7 +32,7 @@ function Contact() {
       setEmail("");
       setSubject('');
       setMessage("");
-      window.open("neki_pdf.pdf", "_blank");
+      // window.open("neki_pdf.pdf", "_blank");
   };
 
   return (

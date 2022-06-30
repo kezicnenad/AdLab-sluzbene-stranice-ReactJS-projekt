@@ -50,7 +50,9 @@ i.las{
     color: #8dabd9 !important;
 }
 
-
+.side-menu-inner-content{
+    display: none;
+}
 
 .cookiealert{
     position: fixed;
@@ -2390,6 +2392,9 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
 
 
 @media screen and (max-width:767px){
+    .side-menu-inner-content {
+            display: block;
+        }
 .cookiealert{
     display: flex;
     flex-direction: column;
